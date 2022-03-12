@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Oprations2</title>
+        <link rel="stylesheet" href="./operations2.css">
+        <script src="./operations2.js"></script>
+    </head>
+    <body>
+        <div id="conteiner">
+            <form id="form">
+                <h1>Subtraction</h1>
+                <label for="text">Unesi prvi broj:</label><br>
+                <input type="text" id="o1"><br>
+                <label for="text">Unesi drugi broj:</label><br>
+                <input type="text"id="o2"><br>
+                <label for="text">Rezultat:</label>
+                <div id="rez"></div>
+                <button id="racunaj" onclick="subtraction();">Racunaj</button>  <!--value="Subtraction "-->
+                <!--label for="text">Rezultat</label><br-->
+                <input type="text" id="neuspeh" placeholder="bad">
+            </form>
+        </div>
+        <div id="conteiner">
+            <form id="form">
+                <h1>Division</h1>
+                <label for="text">Unesi prvi broj:</label><br>
+                <input type="text" id="d1"><br>
+                <label for="text">Unesi drugi broj:</label><br>
+                <input type="text"id="d2"><br>
+                <label for="text">Rezultat:</label>
+                <div id="rez2"></div>
+                <button id="racunaj" onclick="division();" value="">Racunaj</button>  <!--value="Division"-->
+                <!--label for="text">Rezultat</label><br-->
+                <input type="text" id="neuspeh" placeholder="bad">
+            </form>
+        </div>
+    </body>
+</html>
